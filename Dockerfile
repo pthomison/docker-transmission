@@ -1,5 +1,5 @@
 FROM fedora:36
 
-RUN dnf upgrade
+RUN dnf upgrade -y
 
 RUN dnf install -y transmission-cli
